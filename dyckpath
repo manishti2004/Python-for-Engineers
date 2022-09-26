@@ -1,0 +1,9 @@
+def countDyckPaths(n):
+	res = 1
+	for i in range(0, n):
+		res *= (2 * n - i)
+		res /= (i + 1)
+	return res / (n+1)
+n = 4
+print("Number of Dyck Paths is ",
+	str(int(countDyckPaths(n))))
