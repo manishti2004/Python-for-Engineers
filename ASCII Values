@@ -1,0 +1,8 @@
+import string
+KA ='ABCDEFGHIJKMNOPQRSTUVWXYZ'
+LA =KA.lower()
+for i in KA:
+    print (ord(i)) 
+print('--------------')
+for j in LA:
+    print (ord(j)) 
